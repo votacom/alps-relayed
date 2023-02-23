@@ -1,5 +1,5 @@
 # asd1025-relayed
-Input selection circuit replacing the ASD-1015 motor switch in Pioneer's A-502R amplifier using relays.
+Input selection circuit replacing the ASD-1015 motor switch in Pioneer's A-50xR amplifiers, using relays.
 
 ![3D rendering of the circuit board, top view](3D-rendering.png)
 ![3D rendering of the circuit board, bottom view](3D-rendering_bottom.png)
