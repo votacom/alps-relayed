@@ -1,8 +1,8 @@
 # asd1025-relayed
 Input selection circuit replacing the Alps ASD-1015 motor switch in Pioneer's A-50xR amplifiers, using fast relays. The switching circuit supports the amplifier's native remote control and is faster than the motor switch (typically 60 milliseconds on average).
 
-![3D rendering of the circuit board version 2, top view](asd1025-relayed-v2/rendering1.jpg)
-![3D rendering of the circuit board version 2, bottom view](asd1025-relayed-v2/rendering2.jpg)
+![3D rendering of the circuit board version 2, top view](asd1025-relayed-v2/rendering1.png)
+![3D rendering of the circuit board version 2, bottom view](asd1025-relayed-v2/rendering2.png)
 
 ## Supported amplifiers
 This circuit board is designed to replace ASD-1025 in the Pioneer A-502R, A-502R-G, A-503R, and A-503R-G amplifier models. Since the ASD-1025 was also used in A-602R, it may be possible to use it in this model as well, but this has not been verified.
