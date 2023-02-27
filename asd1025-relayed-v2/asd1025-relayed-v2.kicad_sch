@@ -2473,7 +2473,7 @@
     (property "Reference" "R1" (id 0) (at 74.93 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "150k" (id 1) (at 74.93 97.7899 0)
+    (property "Value" "120k" (id 1) (at 74.93 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 75.692 96.52 90)
@@ -3391,7 +3391,7 @@
       (reference "Q1") (unit 1) (value "DTC114E") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/22ce056b-1b36-4367-abfd-97ef53b41380"
-      (reference "R1") (unit 1) (value "150k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R1") (unit 1) (value "120k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/56fb3485-dc73-4e1b-824c-604483007889"
       (reference "U1") (unit 1) (value "SN74HCS7266") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
