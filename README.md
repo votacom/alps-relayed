@@ -1,19 +1,19 @@
 # alps-relayed
-Input selection circuit board replacing the Alps ASD-1015 motor switch (and possibly others) in Pioneer's A-50xR amplifiers (and possibly others), using fast relays. The switching circuit supports the amplifier's native remote control and is faster than the motor switch (typically 42 milliseconds on average).
+Input selection circuit board replacing the Alps ASD-1025 and ASD-1017 motor switches (and possibly others) in Pioneer's A-50xR, A-550R and A-450R amplifiers (and possibly others), using fast relays. The switching circuit supports the amplifier's native remote control and is faster than the motor switch (typically 42 milliseconds on average).
 
 ![3D rendering of the circuit board version 2, top view](asd1025-relayed-v2/rendering1.png)
 ![3D rendering of the circuit board version 2, bottom view](asd1025-relayed-v2/rendering2.png)
 
 ## Supported amplifiers
-This circuit board is designed to replace ASD-1025 in the Pioneer A-502R, A-502R-G, A-503R, and A-503R-G amplifier models. Since the ASD-1025 was also used in A-602R, it may be possible to use it in this model as well, but this has not been verified.
+This circuit board is designed to replace ASD-1025 in the Pioneer A-502R, A-502R-G, A-503R, and A-503R-G amplifier models. It can also replace ASD-1017 in the Pioneer A-501R, A-550R and A-450R models, though with the downside of the "Source" recording input selection not working anymore (unless four jumpers are added, but then tape looping becomes possible, which is inhibited by ASD-1017). Since the ASD-1025 was also used in A-602R, it may be possible to use it in this model as well, but this has not been verified.
 
 ## Versions
 There are two versions of the replacement board: v1 and v2.
-v1 is larger, connects to the motor pin holes via individual connectors, and includes a direct plug connector to the motor driver IC pin holes and an additional stabilizing blind plug connector.
-v2 is more compact, uses only three broad connectors to the motor pin holes, and does not directly plug into the motor driver IC pin holes, but uses a patch wire connector instead.
+v1 is larger, connects to the motor pin holes via individual connectors, and includes a direct plug connector to the motor driver IC pin holes and an additional stabilizing blind plug connector. Its layout is only applicable to the A-502R and A-503R models.
+v2 is more compact, uses only three broad connectors to the motor pin holes, and does not directly plug into the motor driver IC pin holes, but uses a patch wire connector instead. This way, it can also be used in the A-501R, A-550R and A-450R models.
 The two versions also slightly differ in their circuitry.
 
-## Installation
+## Installation in Pioneer A-502R / A-503R
 
 ### v1 Installation
 To install the v1 replacement board,
